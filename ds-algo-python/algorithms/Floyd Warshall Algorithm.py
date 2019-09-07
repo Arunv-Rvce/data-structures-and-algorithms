@@ -25,6 +25,5 @@ def floyd_warshall(dist_graph: List[List]):
 
 if __name__ == '__main__':
     graph = [[0, 5, INF, 10], [INF, 0, 3, INF], [INF, INF, 0, 1], [INF, INF, INF, 0]]
-    # Print the solution
     floyd_warshall(graph)
 
