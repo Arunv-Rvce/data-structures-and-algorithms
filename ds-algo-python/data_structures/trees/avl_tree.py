@@ -4,3 +4,11 @@ class Node:
         self.left: Node = None
         self.right: Node = None
         self.height: int = 1
+
+
+def insert(root: Node, item: int) -> Node:
+    pass
+
+
+def remove(roo: Node, item: int) -> Node:
+    pass
