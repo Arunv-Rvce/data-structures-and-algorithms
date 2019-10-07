@@ -12,7 +12,6 @@ def interpolation_search(arr: List[int], key: int) -> int:
 
     while low <= high:
         comparsions += 1
-        print(comparsions)
         mid = get_probe_position(arr, low, high, key)
 
         if key == arr[mid]:
