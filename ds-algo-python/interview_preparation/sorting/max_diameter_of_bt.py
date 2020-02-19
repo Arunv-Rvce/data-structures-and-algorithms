@@ -26,5 +26,5 @@ if __name__ == '__main__':
     root.right = Node(3)
     root.left.left = Node(4)
     root.left.right = Node(5)
-    print("Diameter of given binary tree is %d" % (__get_diameter(root)))
+    print(f"Diameter of given binary tree is {__get_diameter(root)}")
 
